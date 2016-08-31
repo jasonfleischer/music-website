@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Jason Fleischer · Computer Scientist</title>
+    <title>Jason Fleischer · Music</title>
 	<link rel="icon" href="img/favicon.ico">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/normalize.css">
@@ -17,98 +17,24 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
 </head>
-<body>
-	<div id="content" class="center-block container">
-		<nav class="navbar navbar-inverse" role="navigation">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header" >
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-				  	<span class="icon-bar"></span>
-				  	<span class="icon-bar"></span>
-				  	<span class="icon-bar"></span>
-				</button>
-				<a id="home" onclick="homePage();" class="navbar-brand pointer" ></span>Jason Fleischer</a>
-			</div>
-
-			<div class="navbar-collapse collapse" id="navbar-collapse-1" >
-          		<ul class="nav navbar-nav">
-				  	<li class="pointer" id="resumeM" onclick="resumePage()">
-						<a ><span class="glyphicon glyphicon-file"></span>&nbsp;Resume</a>
-					</li>
-				  	<li class="pointer" id="fbM" onclick="openFaceBook()"><a href="http://www.facebook.com/Jason.R.A.Fleischer" target="_blank">
-						<span class="glyphicon glyphicon-user"></span>&nbsp;FaceBook</a>
-					</li>
-					<li id="git" onclick="git()"><a href="https://github.com/jasonfleischer" target="_blank">
-						<span class="glyphicon glyphicon-globe"></span>&nbsp;Git Repo</a>
-					</li>
-          		</ul>
-				<a id="pIemailMe" class="navbar-right large" style="display:hidden; padding-top:11px;" href=
-				"mailto:jason_fleischer@hotmail.ca?Subject=Jason%20Fleischer%20-%20Developer">
-						<span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;Email Me</a>	
-        		</div>
-		</nav>
-		<div id='personalInfo' >
-			<div> 
-				<div class="panel panel-default banner"> 
-					<div class="panel-body" >
-		 				<span> 
-							<div id="name" style="float:left;"><strong>Jason <span class="hide-mobile">R. A.</span> Fleischer</strong></div>
-							<h4 style="float:right;">
-								<a id="vCard" href="doc/vCard.vcf"> <span class="glyphicon glyphicon-download"></span>&nbsp;vCard</a>
-							</h4>
-        				</span> 
-						<br/>
-						<br/>
-		 				<div id="phone" class="pointer large" onclick="window.location.href='tel:613-407-0602';"> 
-							<small><strong><i>Cell:</i></strong></small> 613-407-0602&nbsp;&nbsp;
-							<span class="glyphicon glyphicon-phone"></span> 
-						</div> 
-					   <div id="email" class="pointer large" onclick="window.location.href ='mailto:jason_fleischer@hotmail.ca?Subject=Jason%20Fleischer%20-%20Developer';"> 
-							<small><strong><i>Email:</i></strong></small>&nbsp;jason_fleischer@hotmail.ca&nbsp;&nbsp;
-							<span class="glyphicon glyphicon-envelope"></span>
-						</div>
-						<div id="residence" class="pointer large" onclick="window.open('https://www.google.com/maps/place/1912+Russell+Rd,+Ottawa,+ON+K1G+1L6,+Canada')">
-							<small><strong><i>Residence:&nbsp;</i></strong></small>1912 Russell Rd, Ottawa<span class="hide-mobile">, Ontario,</span> Canada&nbsp;&nbsp;
-							<span class="glyphicon glyphicon-globe"></span>
-						</div>
-					</div>
-				</div>
-				
-				<div class="panel panel-default">
-					<div  class="panel-body" >
-						<div > 
-							<h3>Bachelor of Computer Science</h3> 
-							<h4><i>Mobile and Social Networking Applications (Co-op Education)</i></h4>
-							<h5 class="pointer" onclick="window.open('http://www.carleton.ca')">Carleton University, Ottawa, ON</h5> 
-							<h6/>Graduated: January 2015</h6> 
-						</div>
-						<br/>
-						<div class="pointer"><strong>About Myself:</strong></div>
-						<br/>
-				    	<div id="bioContent">
-							<p class="indent">
-								As indicated in my resume, I once pursued a career in aviation. I received my commercial pilot’s license from Algonquin Flight Center along with other ratings and licenses. I have also gained valuable work experience from my employment with Transwest Air, a small airline that operates in Saskatchewan. This experience includes micro-management, dispatching, billing, computer and multiple ground handling skills. After being laid off, due to lack of work within this company, I decided to enroll at Carleton University for computer science. Although I still have an interest in aviation, my future at this time is focused in the field of computer science.							</p>
-							<p class="indent">
-								In January 2015, I graduated from Carleton University with a Bachelors degree in computer science. My chosen stream at Carleton was called mobile and social networking applications. During my time at Carleton I had three co-op placements. My first coop placement was for 8-months at Public Works Government Services. Here I gained experience in web and mobile phone development. My second coop placement was at The Ottawa Hospital for 4-months. Here I continued to develop my SQL and web development skills. My last coop position was at HCN (Hotel Communication Network Inc.) as an Android developer. Since graduation, I have continued to work full-time with HCN and have been doing so for about a year. At HCN I gained many valuable skill-sets, however I am now seeking a position that will further my skills.							</p>		
-				    	</div>		
-					</div>
-		    	</div>  
-		
-			</div>
-		</div>
-		<div id='resume' class="panel panel-default">
-		  	<div class="panel-body">
-				<div class="resourcecontent resourcepdf">
-	  				<object id="resourceobject" data="doc/JasonFleischerResume.pdf" type="application/pdf">
-						<param name="src" value="doc/JasonFleischerResume.pdf">
-						Click <a href="doc/JasonFleischerResume.pdf">HERE</a> to download my resume
-	 				 </object>
-				</div>
-			</div>
-		</div>	
-		<div class="pull-left pointer" onclick="window.scrollTo(0,0);"><p>Scroll to top</p></div>
-		<div class="pull-right"><small>Last updated:</small> March 12th 2016</div>	
-	</div>
+<body  style="background:#000; color:#FFF;  margin: 20px; width: 50%; float: none; margin: 0 auto; font-size:20px">
+	<ul class='center' style="list-style-type:none; float: right; width: 50%;">
+		<li>1. into transmission</li>
+		<li>2. crusing</li>
+		<li>3. may i be so bold</li>
+		<li>4. the grip</li>
+		<li>5. intune</li>
+		<li>6. day in day out</li>
+		<li>7. ringtone</li>
+		<li>8. going over you</li>
+		<li>9. no need to criticize</li>
+		<li>10. wave</li>
+		<li>11. wish you were</li>
+		<li>12. cause maybe</li>
+	</ul>
+	
+	<div>
+	<img src="img/red.bmp" alt="Smiley face" style="float: left; width: 50%;" >
+	<h3>Jason Fleischer</h3>
 </body>
 </html>
