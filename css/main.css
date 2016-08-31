@@ -16,28 +16,7 @@ body{
     background: -moz-linear-gradient(right, #F0F0F0, white); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #F0F0F0 , white); /* Standard syntax (must be last) */
 }
-#pIemailMe{ padding-top:10px;}
-#resourceobject{ width:100%; height:600px;}
-#resume{ display:none;}
-#content{ max-width:1000px; margin-top:20px; }
-#subH1{ color: #EEE; }
-#contactInfo{ font-size:18px; }
-#git, #fbM, #resumeM{ padding: 0px 20px 0px 20px  !important; }
-#home{ padding-right: 25px  !important; }
-#personalInfo{ margin: 0px 5px 0px 5px;}
-#name{ font-size:25px; }
-.pointer{ cursor:pointer; }
-.large{ font-size:18px; }
-.banner{
-	background-image:url('../img/banner.jpg');
-	background-repeat: no-repeat;
-	background-color: #000 !important;
-	margin: 0px  0px 0px 0px !important;
-	color: #FFF !important;
-	border-top-right-radius: 8px;
-	border-top-left-radius: 8px;
-	text-shadow: 1px 1px #000000;
-}
+
 
 
 
