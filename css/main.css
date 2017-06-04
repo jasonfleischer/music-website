@@ -1,27 +1,7 @@
 /*Jason Fleischer*/
-
-
-
-#grad{
-  background: #FFF; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #FEFEFE , #FFF); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #FEFEFE, #FFF); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #FEFEFE, #FFF); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #FEFEFE , #FFF); /* Standard syntax */
-}
-
-#grad2{
-  background: #000; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #333 , #000); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #333, #000); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #333, #000); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #333 , #000); /* Standard syntax */
-}
-
-#grad3{
-  background: #000; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #000 , #111); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #000, #111); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #000, #111); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #000 , #111); /* Standard syntax */
+ 
+@media only screen and (max-width: 750px) {
+    #title {
+        display: none;
+    }
 }
