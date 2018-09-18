@@ -1,7 +1,15 @@
 /*Jason Fleischer*/
  
 @media only screen and (max-width: 750px) {
-    #title, #video {
+    #title {
         display: none;
+    }
+    #video {
+    	width: 320px;
+    	height:215px
+    }
+    #text {
+    	font-size: 24px;
+    	width: 290px !important;
     }
 }
