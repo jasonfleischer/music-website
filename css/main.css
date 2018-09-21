@@ -6,11 +6,11 @@
     }
     #video {
     	width: 290px;
-    	height:215px
+    	height:215px;
     }
     #video_cont{
-        width: 290px;
-        min-width: 320px; 
+        width: 290px !important; 
+        min-width: 290px !important; 
     }
     #text {
     	font-size: 24px;
