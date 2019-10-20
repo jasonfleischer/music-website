@@ -1,18 +1,5 @@
 /*Jason Fleischer*/
  
-@media only screen and (max-width: 750px) {
-    #logo_cont {
-        display: none;
-    }
-    #text {
-    	font-size: 24px;
-    }
-    .video {
-        width: 400px;
-        height: 300px;
-    }
-}
-
 html {
     width: 100%;
 }
@@ -32,7 +19,10 @@ body {
 }
 
 .video {
-    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     margin: 0 auto; 
     border-style: none;
 }
@@ -49,6 +39,32 @@ body {
     width: 65px; 
     height: 65px;
 }
+.loading {
+    top: 110px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    border: 10px solid #ffffff96;
+    border-radius: 50%;
+    border-top: 10px solid #333;
+    width: 55px;
+    height: 55px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
 #header {
     background-image: linear-gradient(to bottom right, black, #AA222222); 
@@ -58,8 +74,8 @@ body {
     height: 77px; 
     margin: 0px; 
     padding: 0px; 
-    padding-top: 5px; 
-    padding-bottom: 5px;
+    padding-top: 3px; 
+    padding-bottom: 3px;
 }
 #logo_cont {
     float: left; 
@@ -82,6 +98,7 @@ body {
     margin-top: 5px; 
     height: 100%; 
     width: 415px; 
+    padding-right: 7px;
 }
 #text {
     margin-top: 77px; 
@@ -95,7 +112,7 @@ body {
     width: 100%;  
     margin-right: auto; 
     font-family: Arial; 
-    font-size: 28px;
+    font-size: 24px;
 }
 #text p {
     width: 90%;
@@ -107,6 +124,8 @@ body {
     margin-top: 44px; 
 }
 #video_cont_jf, #video_cont_dk {
+    height: 495px;
+    position: relative;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.1);
     padding-top: 25px;
@@ -130,4 +149,21 @@ body {
     font-family: lobster, cursive; 
     font-style: italic; 
     font: italic normal normal 18px/0.0em georgia,  palatino, 'book antiqua', 'palatino linotype', serif;
+}
+
+@media only screen and (max-width: 750px) {
+    #logo_cont {
+        display: none;
+    }
+    #text {
+        font-size: 22px;
+    }
+    #video_cont_jf, #video_cont_dk
+    {
+        height: 300px;
+    }
+    .video {
+        width: 400px;
+        height: 300px;
+    }
 }
