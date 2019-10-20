@@ -1,18 +1,133 @@
 /*Jason Fleischer*/
  
 @media only screen and (max-width: 750px) {
-    #title {
+    #logo_cont {
         display: none;
-    }
-    #video {
-    	width: 290px;
-    	height:215px;
-    }
-    #video_cont{
-        width: 290px !important; 
-        min-width: 290px !important; 
     }
     #text {
     	font-size: 24px;
     }
+    .video {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background:#000;
+    background-attachment: fixed;
+    position: relative; 
+    color: #FFF; 
+    margin: 0px; 
+    padding: 0px; 
+    width: 100%; 
+    height: 100%; 
+    background-repeat: no-repeat; 
+    background-position: right top; 
+    background-size: cover;
+}
+
+.video {
+    display: block;
+    margin: 0 auto; 
+    border-style: none;
+}
+.media_icon_cont {
+    float: left; 
+    width: 80px; 
+    cursor: pointer;
+}
+.media_icon {
+    margin: auto; 
+    width: 50%;
+}
+.media_icon img {
+    width: 65px; 
+    height: 65px;
+}
+
+#header {
+    background-image: linear-gradient(to bottom right, black, #AA222222); 
+    top: 0px; 
+    position:fixed; 
+    width: 100%; 
+    height: 77px; 
+    margin: 0px; 
+    padding: 0px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+#logo_cont {
+    float: left; 
+    width: 40%; 
+    padding-top: 10px
+}
+#logo_cont div {
+    float: left; 
+    width: 80px; 
+    margin:auto; 
+    cursor:pointer;
+    padding-left: 15px;
+}
+#logo {
+    width: 65px; 
+    height: 60px;
+}
+#media_icons {
+    float: right; 
+    margin-top: 5px; 
+    height: 100%; 
+    width: 415px; 
+}
+#text {
+    margin-top: 77px; 
+    margin: 0 auto; 
+    padding-top: 3px; 
+    padding-bottom: 15px; 
+    padding-left: 5%; 
+    padding-right: 5%;  
+    background-image: linear-gradient(to bottom right, #111, #373737); 
+    min-width: 300px; 
+    width: 100%;  
+    margin-right: auto; 
+    font-family: Arial; 
+    font-size: 28px;
+}
+#text p {
+    width: 90%;
+}
+#signature {
+    height: 45px;
+}
+#video_cont_jf {
+    margin-top: 44px; 
+}
+#video_cont_jf, #video_cont_dk {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#footer {
+    background-color: rgba(1, 1, 1, 0.3); 
+    bottom: 0px; 
+    width: 100%; 
+    margin: 0px; 
+    padding: 0px; 
+    height:50px;
+}
+#footer p {
+    cursor: pointer;
+    margin-left: 20px; 
+    margin: 0px; 
+    padding-top: 27px; 
+    padding-left: 25px; 
+    line-height: 50px; 
+    font-family: lobster, cursive; 
+    font-style: italic; 
+    font: italic normal normal 18px/0.0em georgia,  palatino, 'book antiqua', 'palatino linotype', serif;
 }
