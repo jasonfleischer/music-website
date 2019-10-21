@@ -18,6 +18,14 @@ body {
     background-size: cover;
 }
 
+.video_cont {
+    height: 495px;
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 .video {
     position: absolute;
     left: 0;
@@ -40,7 +48,7 @@ body {
     height: 65px;
 }
 .loading {
-    top: 110px;
+    top: 238px;
     position: absolute;
     left: 0;
     right: 0;
@@ -123,14 +131,6 @@ body {
 #video_cont_jf {
     margin-top: 44px; 
 }
-#video_cont_jf, #video_cont_dk {
-    height: 495px;
-    position: relative;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
 #footer {
     background-color: rgba(1, 1, 1, 0.3); 
     bottom: 0px; 
@@ -158,12 +158,14 @@ body {
     #text {
         font-size: 22px;
     }
-    #video_cont_jf, #video_cont_dk
-    {
+    .video_cont {
         height: 300px;
     }
     .video {
         width: 400px;
         height: 300px;
+    }
+    .loading {
+        top: 138px;
     }
 }
