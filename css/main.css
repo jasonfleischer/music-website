@@ -2,6 +2,7 @@
  
 html {
     width: 100%;
+    overflow-x: none; 
 }
 
 body {
@@ -16,6 +17,7 @@ body {
     background-repeat: no-repeat; 
     background-position: right top; 
     background-size: cover;
+    overflow-x: none; 
 }
 
 .video_cont {
@@ -84,6 +86,7 @@ body {
     padding: 0px; 
     padding-top: 3px; 
     padding-bottom: 3px;
+    z-index: 99;
 }
 #logo_cont {
     float: left; 
@@ -116,8 +119,7 @@ body {
     padding-left: 5%; 
     padding-right: 5%;  
     background-image: linear-gradient(to bottom right, #111, #373737); 
-    min-width: 300px; 
-    width: 100%;  
+    min-width: 300px;   
     margin-right: auto; 
     font-family: Arial; 
     font-size: 24px;
