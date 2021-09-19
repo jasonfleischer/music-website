@@ -105,6 +105,14 @@ html, body {
     font-size: 36px!important;
 }
 
+#patreon {
+    height: 35px;
+    margin: 5px;
+}
+#kofi {
+    height: 54px;
+}
+
 /*Jason Fleischer*/
  
 /*html {
