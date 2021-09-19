@@ -76,7 +76,22 @@ html, body {
 .full_width {
     width: 100%;
 }
+.w3-animate-top {
+    background: #000!important;
+}
 
+.w3-bar-item-black {
+    color: white;
+}
+
+
+.fa-soundcloud, .fa-youtube, .fa-facebook-official {
+    font-size: 35px!important;
+}
+.fa-fw {
+    font-size: 25px!important;
+    margin-right: 5px!important;
+}
 #home div {
     height: 90%;
 }
@@ -87,20 +102,6 @@ html, body {
 #main_text {
     font-size: 20px;
 }
-
-.w3-animate-top {
-    background: #000!important;
-}
-
-.w3-bar-item-black {
-    color: white;
-}
-
-.w3-xlarge {
-    font-size: 25px!important;
-    margin-right: 5px!important;
-}
-
 #patreon {
     height: 35px;
     margin: 5px;
@@ -108,4 +109,3 @@ html, body {
 #kofi {
     height: 54px;
 }
-
