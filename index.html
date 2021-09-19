@@ -1,66 +1,157 @@
 <!DOCTYPE html>
-<!--Jason Fleischer-->
 <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-	
-    <title>Jason Fleischer - Music</title>
-	<link rel="icon" href="img/favicon.ico">
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body style="background-image: url('img/background.jpg');">	
-	<div id="header">		
-		<div id="logo_cont">
-			<div data-toggle="tooltip" data-placement="bottom" title="contact" onclick="location.href ='mailto:jason_fleischer@hotmail.ca?Subject=Jason%20Fleischer:%20Music%20Inquiries%20or%20Feedback'">
-				<img id="logo" src="img/logo.png" alt="logo">
-			</div>		
-		</div>
-		<div id="media_icons">
-			<div class="media_icon_cont" data-toggle="tooltip" data-placement="bottom" title="contact" onclick="location.href ='mailto:jason_fleischer@hotmail.ca?Subject=Jason%20Fleischer:%20Music%20Inquiries%20or%20Feedback'" >
-				<div class="media_icon">
-					<img src="img/mail.png" alt="mail">
-				</div>	
-			</div>
-			<div class="media_icon_cont" data-toggle="tooltip" data-placement="bottom" title="soundcloud" onclick="window.open('https://soundcloud.com/jfleischer', '_blank');">
-				<div class="media_icon">
-					<img src="img/soundcloud.png" alt="soundcloud">
-				</div>
-			</div>
-			<div class="media_icon_cont" data-toggle="tooltip" data-placement="bottom" title="facebook" onclick="window.open('https://www.facebook.com/fleischer.music/', '_blank');" >
-				<div class="media_icon">
-					<img src="img/facebook.png" alt="facebook">
-				</div>
-			</div>
-			<div class="media_icon_cont" data-toggle="tooltip" data-placement="bottom" title="patreon" onclick="window.open('https://www.patreon.com/fleischer', '_blank');" >
-				<div class="media_icon">
-					<img src="img/patreon.png" alt="patreon">
-				</div>
-			</div>
-			<div class="media_icon_cont" data-toggle="tooltip" data-placement="bottom" title="youtube" onclick="window.open('https://www.youtube.com/channel/UCqHORDFBGwNO7helootdi2Q', '_blank');" >
-				<div class="media_icon">
-					<img src="img/youtube.png" alt="youtube">
-				</div>
-			</div>
-		</div>
-	</div>
-	<br/>/<br/><br/>/<br/><br/><br/><br/>
-	<div id="text">
-		<p>Hey! You can listen to my music below or on <a href="https://soundcloud.com/jfleischer" style="color :#ff7600; text-decoration: none">Soundcloud</a>. Watch my videos on <a href="https://www.youtube.com/channel/UCqHORDFBGwNO7helootdi2Q" style="color :#ff0000; text-decoration: none">Youtube</a>, follow me on <a href="https://www.facebook.com/fleischer.music/" style="color :#3b5998; text-decoration: none">Facebook</a>, or contact me through 
-		<a href="mailto:jason_fleischer@hotmail.ca?Subject=Jason%20Fleischer:%20Music%20Inquiries%20or%20Feedback'" style="color :#55ACEE; text-decoration: none">Email</a>. - Jason Fleischer
-		</p>
-		<img id="signature" src="img/signature.png" alt="signature"/>
-	</div>
-	<div id="video_cont_jf" class="video_cont">
-		<div class="loading"></div> 
-		<iframe class="video" width="700" height="500" src="https://www.youtube.com/embed/l_xnYrPNArM" allowfullscreen></iframe>
-	</div>
-	<div class="video_cont">
-		<div class="loading"></div>
-		<iframe class="video" width="700" height="500" src="https://www.youtube.com/embed/4hAGpBDlGpY" allowfullscreen></iframe>
-	</div>
-	<br/>
-	<div id="footer">
-		<p onclick="location.href ='mailto:jason_fleischer@hotmail.ca?Subject=Jason%20Fleischer:%20Music%20Inquiries%20or%20Feedback'">Music • Jason Fleischer</p>
-	</div>
+<title>Jason Fleischer - Musician</title>
+<link rel="icon" href="img/favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Modified W3 template -->
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+
+  <a href="#about" class="w3-bar-item w3-bar-item-black w3-button w3-padding-large w3-hide-small">MUSIC</a>
+  <a href="#contact" class="w3-bar-item w3-bar-item-black w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  <a href="https://ko-fi.com/jasonfleischer"  class="w3-bar-item w3-bar-item-black w3-button w3-padding-large w3-hide-small">SUPPORT</a>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">MUSIC</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" >
+      <img id="logo" src="img/icon.svg" class="w3-hover-opacity full_width w3-center w3-xlarge w3-wide w3-animate-opacity" alt="logo">
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h2 class="w3-center">Jason Fleischer</h2>
+  <p class="w3-center"><em>Musician / Guitarist / Music Producer</em></p>
+
+  <p id="main_text">Hey! You can listen to my music below or on <a href="https://soundcloud.com/jfleischer" style="color :#ff7600; text-decoration: none">Soundcloud</a>. Watch my videos on <a href="https://www.youtube.com/channel/UCqHORDFBGwNO7helootdi2Q" style="color :#ff0000; text-decoration: none">Youtube</a>, follow me on <a href="https://www.facebook.com/fleischer.music/" style="color :#3b5998; text-decoration: none">Facebook</a>, or contact me through 
+    <a href="mailto:jason_fleischer@hotmail.ca?Subject=Jason%20Fleischer:%20Music%20Inquiries%20or%20Feedback'" style="color :#55ACEE; text-decoration: none">Email</a>. - Jason Fleischer
+    </p>
+</div>
+
+
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h4 class="w3-center">VIDEOS</h4>
+  <div id="video_cont_jf" class="w3-center">
+    <div class="loading"></div> 
+    <iframe class="video" width="700" height="500" src="https://www.youtube.com/embed/l_xnYrPNArM" allowfullscreen></iframe>
+  </div>
+  <div class="w3-center">
+    <div class="loading"></div>
+    <iframe class="video" width="700" height="500" src="https://www.youtube.com/embed/4hAGpBDlGpY" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <h4 class="w3-center">PICTURES</h4>
+    
+    <div class="w3-col m3">
+      <img src="img/BywardMarketMusicians1COMP.png" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="Busking in the Byward Market">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/me_electric.png" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="Jason Fleischer">
+    </div>
+    <div class="w3-col m3">
+      <img src="img/BywardMarketMusicians3COMP.jpg" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="Busking in the Byward Market">
+    </div>
+    <div class="w3-col m3">
+      <img src="img/me_acoustic.jpg" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="Jason Fleischer">
+    </div>
+
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+
+
+<!--<div class="w3-col m3">
+      <img src="img/me.jpg" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="Jason Fleischer">
+    </div>
+    <div class="w3-col m3">
+      <img src="img/placeholder.png" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="Jason Fleischer">
+    </div>
+
+    
+    
+    <div class="w3-col m3">
+      <img src="img/BywardMarketMusicians1COMP.jpg" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="Busking in the Byward Market">
+    </div>
+    <div class="w3-col m3">
+      <img src="img/BywardMarketMusicians2COMP.jpg" onclick="onClick(this)" class="w3-hover-opacity full_width" alt="Busking in the Byward Market">
+    </div>-->
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="hide(this)">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image" src="img/placeholder.png" alt="modal img">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+ 
+<!-- Third Parallax 
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">Contact</span>
+  </div>
+</div>-->
+
+<!-- Contact Section -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+
+
+
+   
+    <div class="w3-center w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right" onclick="window.open('https://www.google.com/maps/place/6+Bedford+Crescent,+Ottawa,+ON,+Canada')"></i>6 Bedford Crescent, Ottawa<span class="hide_mobile">, ON, Canada</span><br>
+     
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right" onclick="window.location.href ='mailto:jason_fleischer@hotmail.ca?Subject=Jason%20Fleischer%20-%20Music%20Inquiry';"></i>  jason_fleischer@hotmail.ca<br>
+           <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right" onclick="window.location.href ='tel:+16134070602';"></i> 1-613-407-0602<br>
+      </div>
+      <button class="w3-button w3-black  w3-section" type="submit" onclick="window.location.href ='mailto:jason_fleischer@hotmail.ca?Subject=Jason%20Fleischer%20-%20Music%20Inquiry';">
+          <i class="fa fa-paper-plane"></i> &nbsp;&nbsp;&nbsp;SEND EMAIL MESSAGE
+        </button>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32 w3-opacity">
+
+  <div class="w3-xlarge w3-section">
+    
+    <a href="https://www.patreon.com/fleischer" target="_blank"><i class="fa fa-patreon w3-hover-opacity"></i></a>
+
+    <a href="https://www.youtube.com/channel/UCqHORDFBGwNO7helootdi2Q" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+    <a href="https://soundcloud.com/jfleischer" target="_blank"><i class="fa fa-soundcloud w3-hover-opacity"></i></a>
+    <a href="https://www.facebook.com/fleischer.music/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  </div>
+</footer>
+ 
+<script src="js/w3.js" ></script>
 </body>
 </html>
