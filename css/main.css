@@ -103,9 +103,11 @@ html, body {
     font-size: 20px;
 }
 #patreon {
-    height: 35px;
+    height: 40px;
     margin: 5px;
+    padding-bottom: 7px;
 }
 #kofi {
-    height: 54px;
+    height: 62px;
+    padding-bottom: 8px;
 }
