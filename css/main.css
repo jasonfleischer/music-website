@@ -44,7 +44,7 @@ body, html {
 }
 
 /*Jason Fleischer*/
-@media screen and (max-width:1000px) {
+@media screen and (max-width:700px) {
     .hide_mobile, small, #photo { 
         display: none; 
     }
@@ -52,7 +52,7 @@ body, html {
         font-size: 14px;
     }
 }
-@media screen and (min-width:1000px) {
+@media screen and (min-width:700px) {
     body{
         font-size:16px;
     }
@@ -110,4 +110,7 @@ html, body {
 #kofi {
     height: 60px;
     padding-bottom: 8px;
+}
+#music_software{
+    margin: 10%;
 }
