@@ -84,6 +84,10 @@ html, body {
     color: white;
 }
 
+.app_icon {
+    border-radius: 24px;
+}
+
 
 .fa-soundcloud, .fa-youtube, .fa-facebook-official {
     font-size: 35px!important;
